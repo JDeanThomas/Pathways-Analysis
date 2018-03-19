@@ -260,14 +260,5 @@ ConvKEGG <- function(PathKEGG) {
 } 
 
 
-keggList("hsa00601")
-keggFind("genes", "hsa00601")
-
-head(keggConv("ncbi-geneid", dfPathways$PathwayID[351]))
-
-head(keggConv("ncbi-geneid", "hsa00601"))
-
-keggLink("hsa00601")
-
 
 
